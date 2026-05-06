@@ -1,0 +1,41 @@
+import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { Router } from '@angular/router';
+import { Auth } from '../../auth';
+
+@Component({
+  selector: 'scss-registro',
+  imports: [FormsModule],
+  templateUrl: './registro.html',
+  styleUrl: './registro.scss',
+})
+export class Registro {
+  nome?: string;
+  email?: string;
+  senha?: string;
+
+  constructor(
+      private auth: Auth,
+      private router: Router
+    ) { }
+
+  async registrar() {
+    try {
+      if (!this.email || !this.nome || !this.senha) {
+        return alert('Nome ou Senha errados!')
+      }
+
+      if (await this.auth.registrar(
+        this.nome,
+        this.senha,
+      )) {
+      this.router.navigate(['/calendario'])
+      } else {
+        this.nome = undefined;
+        this.senha = undefined;
+      }
+    } catch (error) {
+
+    }
+  }
+}
