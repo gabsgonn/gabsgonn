@@ -1,24 +1,24 @@
-<h1 align="center">Olá, eu sou Gabriel Gonçalves 👋</h1>
+<h1 align="center">Olá</h1>
 
 <p align="center">
-  Desenvolvedor Full Stack Júnior apaixonado por criar interfaces modernas e APIs robustas.
+  Desenvolvedor Full Stack Júnior.
   <br>
   Atualmente focado em <strong>Angular</strong>, e <strong>Spring Boot</strong>.
 </p>
 
 <br>
 
-## 🧑‍💻 Sobre mim
+## Sobre mim
 
-- 🔭 Trabalhando em projetos com **Angular + Spring Boot**
-- ☕ Aprofundando conhecimentos em **Java e arquitetura de APIs REST**
-- 💡 Interesse em UI/UX e design de interfaces com **Figma**
-- 📫 Contato profissional: **contato@gabrielgonc.com**
-- 🌐 Portfólio: [gabrielgonc.com](https://gabrielgonc.com)
+- Trabalhando em projetos com **Angular + Spring Boot**
+- Aprofundando conhecimentos em **Java e arquitetura de APIs REST**
+- Interesse em UI/UX e design de interfaces com **Figma**
+- Contato profissional: **contato@gabrielgonc.com**
+- Portfólio: [gabrielgonc.com](https://gabrielgonc.com)
 
 <br>
 
-## 🛠️ Tecnologias & Ferramentas
+## Tecnologias & Ferramentas
 
 **Front-end**
 
